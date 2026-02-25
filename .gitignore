@@ -1,0 +1,23 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django/Database
+db.sqlite3
+db.sqlite3-journal
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Project specific documentation (Do not push to GitHub)
+PROJECT_WORKFLOW.md
