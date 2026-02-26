@@ -36,4 +36,4 @@ class MappingDetailOrPatientDoctorsView(APIView):
             patient__created_by=request.user
         )
         mapping.delete()
-        return Response(status=status.HTTP_204_NO_CONTENT)
+        return Response({"message": "Mapping deleted successfully."}, status=status.HTTP_200_OK)
